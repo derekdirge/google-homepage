@@ -1,0 +1,31 @@
+#search {
+    position: absolute;
+    width: 800px;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -25%);
+    -webkit-transform: translate(-50%, -25%);
+}
+
+#search img {
+    width: 269px;
+}
+
+input[type="text"] {
+    margin-top: 1em;
+    width: 550px;
+    height: 25px;
+    font-size: 110%;
+    border: solid 1px #b0b0b0;
+    -webkit-transition: border 0.1s;
+}
+
+input[type="text"]:hover {
+    border: solid 1px #747474;
+}
+
+input[type="text"]:focus {
+    border: solid 1px #4f99ff;
+    outline: none;
+}
